@@ -1,3 +1,7 @@
+/**
+ * This Java program calculates the greatest common divisor (GCD) of two numbers using the Euclidean
+ * algorithm and displays the steps in a table.
+ */
 import java.util.Scanner;
 
 public class Main {
@@ -5,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Welcome to Euclidean's Algorithm");
+        System.out.println("\n\nWelcome to Euclidean's Algorithm");
 
         System.out.print("Enter First Number: ");
         long num1 = sc.nextLong();
@@ -20,7 +24,7 @@ public class Main {
 
         long gcd = euclideanGCD(num1, num2);
 
-        System.out.printf("\nThe GCD of %d and %d is : %d", num1, num2, gcd);
+        System.out.printf("\nThe GCD of %d and %d is : %d\n\n", num1, num2, gcd);
 
         sc.close();
     }
