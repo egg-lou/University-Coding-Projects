@@ -1,6 +1,10 @@
-import java.util.Scanner;
+/**
+ * The RemoveElementAtPos class allows the user to remove a specified element from an array and
+ * displays the updated array.
+ */
+import java.util.*;
 
-public class RemoveElem {
+public class RemoveElementAtPos {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] arr = {1,2,3,4,5};

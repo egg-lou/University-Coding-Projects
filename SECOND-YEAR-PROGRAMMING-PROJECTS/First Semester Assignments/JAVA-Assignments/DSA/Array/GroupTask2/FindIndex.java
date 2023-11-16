@@ -1,4 +1,7 @@
-import java.util.Scanner;
+/**
+ * The FindIndex class allows the user to input an element and finds its index in the given array.
+ */
+import java.util.*;
 
 public class FindIndex {
     public static void main(String[] args) {

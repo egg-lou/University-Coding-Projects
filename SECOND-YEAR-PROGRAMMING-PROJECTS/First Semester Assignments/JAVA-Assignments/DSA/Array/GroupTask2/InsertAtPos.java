@@ -1,4 +1,8 @@
-import java.util.Scanner;
+/**
+ * The InsertAtPos class allows the user to input an array, a position, and an element, and then
+ * inserts the element at the specified position in the array.
+ */
+import java.util.*;
 
 public class InsertAtPos {
     public static void main(String[] args) {
@@ -9,7 +13,7 @@ public class InsertAtPos {
 
         int[] array = new int[size];
 
-        System.out.print("Enter the elements of the array:");
+        System.out.println("Enter the elements of the array:");
         for (int i = 0; i < size; i++) {
             System.out.print("Element Number " + (i + 1) + ": ");
             array[i] = sc.nextInt();
