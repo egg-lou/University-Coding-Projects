@@ -4,6 +4,11 @@ import java.util.Scanner;
 public class MaxHeap {
     private ArrayList<Integer> heap;
     
+    /**
+     * This is the constructor for the MaxHeap class.
+     * It initializes the heap as an empty ArrayList of integers.
+     * The heap property for a max heap is that the parent node is always larger than its child nodes.
+     */
     public MaxHeap() {
         heap = new ArrayList<>();
     }
